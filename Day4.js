@@ -42,8 +42,6 @@ function proTwo(){
 })
 }
 
-//4 Promise.race
-
 Promise.race([
     proOne(),
     proTwo()
@@ -56,7 +54,7 @@ Promise.race([
     console.log(str)
 })
 
-//5 Promise.any()
+//4 Promise.any()
 
 Promise.any([
 Promise.reject("Bye"),
