@@ -11,7 +11,6 @@ function getUserPage(pageNumber) {
         })
 }
 
-
 function getUserbyemail(email) {
     return fetch(`https://reqres.in/api/users/${email}`)
         .then(function (response) {

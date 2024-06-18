@@ -46,16 +46,16 @@
 
 //4
 
-function getInfo(){
-    setTimeout (function(){
-        console.log("user created") 
-        setTimeout (function(){
-            console.log("get ID") 
-            setTimeout (function(){
-                console.log("get info") 
-            },1000)
-        },2000)
-    },3000)
-}
+// function getInfo(){
+//     setTimeout (function(){
+//         console.log("user created") 
+//         setTimeout (function(){
+//             console.log("get ID") 
+//             setTimeout (function(){
+//                 console.log("get info") 
+//             },1000)
+//         },2000)
+//     },3000)
+// }
 
-getInfo()
+// getInfo()
